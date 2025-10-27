@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Futuristic Profile</title>
+  <style>
+    /* Animated gradient background */
+    body {
+      margin: 0;
+      height: 100vh;
+      min-height: 100vh;
+      font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+      color: #fff;
+      background: linear-gradient(-45deg, #000428, #004e92, #0fffc1, #4b006e, #7303c0, #ec38bc);
+      background-size: 600% 600%;
+      animation: gradientBG 16s ease-in-out infinite;
+      overflow: hidden;
+    }
+    @keyframes gradientBG {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .name { font-size: 1.37rem; }
+      .profile-card { padding: 1.7rem 0.7rem; }
+      .avatar { width: 75px; height: 75px; }
+    }
+  </style>
+  </head>
+<body>
+
+</body>
+</html>
